@@ -1,0 +1,44 @@
+.section-two {
+    height: 140vh;
+    display: flex;
+    align-items: center;
+    margin: 9rem 0 0 0;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+
+.sec2-title {
+    width: 29.563rem;
+    height: 7.875rem;
+    margin: 0%;
+    font-size: 3.375rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: -1.69px;
+    color: #fff;
+}
+
+.sec2-title div {
+    margin: 20px;
+    font-size: 1.181rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: -0.59px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.sec-2-img {
+    width: 62.438rem;
+    height: 38.25rem;
+    object-fit: contain;
+    border-radius: 9px;
+    box-shadow: 0 38px 49px 0 rgba(0, 0, 0, 0.31);
+    margin-top: 80px;
+}

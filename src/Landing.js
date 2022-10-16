@@ -1,6 +1,16 @@
 import React from "react";
 import './Landing.css'
-import LandingForm from './assets/landing-form.png'
+
+import Oval from './assets/sec1-oval.svg'
+
+import FeatureSection from "./components/FeatureSection";
+import SectionFour from "./components/SectionFour";
+import SectionFifth from "./components/SectionFifth";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import SectionOne from "./components/SectionOne";
+import SectionTwo from "./components/SectionTwo";
+
 const Landing = () => {
 
 
@@ -8,29 +18,16 @@ const Landing = () => {
 
 
         <>
-            {/* //NAVBAR */}
-
-            <nav className="navbar">
-                <div className="nav-title">Omega</div>
-                <div>
-                    <span className="nav-menu">Demos</span>
-                    <span className="nav-menu">Pages</span>
-                    <span className="nav-menu">Support</span>
-                </div>
-                <div>
-                    <button className="nav-btn">Get Beta Access</button>
-                </div>
-            </nav>
-
-
-            {/* MAIN */}
+            <Navbar />
             <main>
-                <section className="section-one">
-                    <div></div>
-                    <div>
-                    <img src={LandingForm} />
-                    </div>
-                </section>
+                <SectionOne />
+                <img className="oval-svg" src={Oval} alt='Oval-svg' />
+                <SectionTwo />
+                <FeatureSection />
+                <div className="line"></div>
+                <SectionFour />
+                <SectionFifth />
+                <Footer />
 
             </main>
         </>

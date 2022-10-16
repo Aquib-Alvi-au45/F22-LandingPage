@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.nav-title {
+    width: 4.438rem;
+    height: 1.75rem;
+    margin-top: 10px;
+    font-size: 1.35rem;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.68px;
+    color: #fff;
+}
+
+.nav-menu {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    margin-right: 10px;
+    font-size: small;
+}
+
+.nav-menu:nth-of-type(1) {
+    color: #f04037;
+}
+
+.nav-btn {
+    width: 8.813rem;
+    height: 2.563rem;
+    padding: 0.688rem 0.438rem 0.75rem;
+    border-radius: 4.5px;
+    color: white;
+    border: solid 0.9px #c31a12;
+    background-color: #f04037;
+}

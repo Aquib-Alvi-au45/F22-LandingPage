@@ -1,0 +1,47 @@
+.section-four{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.sec-four-img{
+    width: 25.063rem;
+    height: 25.063rem;
+    object-fit: contain;
+    box-shadow: 0 38px 49px 0 rgba(0, 0, 0, 0.31);
+}
+.circle{
+    width: 10.188rem;
+    height: 10.188rem;
+    border-radius: 50%;
+    opacity: 0.7;
+    top: 0;
+    position: absolute;
+    background-image: linear-gradient(to bottom,#01013d, #0f0052);
+}
+.sec4-title{
+    width: 28.75rem;
+    height: 7.875rem;
+    margin: 1.5rem 0;
+    font-size: 3.375rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: -1.69px;
+    color: #fff;
+}
+
+.sec4-title div{
+
+  margin: 1.5rem 0 0;
+  font-size: 1.181rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: -0.59px;
+  color: rgba(255, 255, 255, 0.7);
+}
